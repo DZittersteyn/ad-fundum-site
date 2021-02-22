@@ -2,3 +2,11 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "G.S.D.C Ad Fundum"
 theme = "hugo-theme-cleanwhite"
+
+[params]
+  header_image = "backgrounds/hero.jpg"
+  custom_css=["style.css"]
+  slogan="Making diving accessible and affordable for students"
+  [params.social]
+    instagram = "https://instagram.com/adfundumdiving"
+    facebook = "https://www.facebook.com/gsdcadfundum"
