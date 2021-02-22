@@ -1,0 +1,13 @@
+---
+banner:
+  enable: true
+  bg_image_webp: images/backgrounds/hero.webp
+  bg_image: images/backgrounds/hero.jpg
+  icon: ''
+  title: 'G.S.D.C Ad Fundum '
+  content: Groningen Student Diving Association Ad Fundum, making diving accessible
+    and affordable for students.
+  button:
+    enable: true
+    label: Check us out
+    link: "#about"
