@@ -1,0 +1,4 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "G.S.D.C Ad Fundum"
+theme = "hugo-theme-cleanwhite"
