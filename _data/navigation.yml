@@ -1,14 +1,15 @@
 ---
 main:
-- title: Association
-  url: "/association.html"
 - title: Diving
   url: "/diving.html"
+- title: Association
+  url: "/association.html"
 - title: Spots
   url: "/spots.html"
 
 agenda:
   - title: "March"
     children:
-    - title: "1st: First of March dive"
+    - date: "1"
+      title: "First of March dive"
 

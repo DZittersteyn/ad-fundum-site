@@ -1,7 +1,9 @@
 ---
+title: Homepage
 layout: single
 sidebar:
 - nav: agenda
+  title: "Calendar"
 
 ---
 Welkom to Ad Fundum!
