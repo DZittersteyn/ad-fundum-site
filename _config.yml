@@ -33,6 +33,7 @@ facebook_username: gsdcadfundum
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-menus
 
 # Exclude from processing.
 # The following items will not be processed, by default.
