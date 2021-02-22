@@ -6,3 +6,8 @@ main:
   url: "/diving.html"
 - title: Spots
   url: "/spots.html"
+
+agenda:
+  - title: March
+  children:
+    - title: "1st: First of March dive"

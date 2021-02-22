@@ -29,11 +29,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: adfundumdiving
 facebook_username: gsdcadfundum
 
-header_pages:
-  - diving.md
-  - spots.md
-  - association.md
-
 # Build settings
 theme: minimal-mistakes-jekyll
 plugins:
@@ -48,6 +43,9 @@ defaults:
   values:
     toc_icon: stream
     toc_sticky: true
+
+paginate: 5 # amount of posts to show
+paginate_path: /posts/page:num/
 
 
 # Exclude from processing.

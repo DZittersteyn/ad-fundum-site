@@ -1,0 +1,16 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+/* headline scale */
+$h-size-1: 1.3em !default;
+$h-size-2: 1.15em !default;
+$h-size-3: 1em !default;
+$h-size-4: 1em !default;
+$h-size-5: 1em !default;
+$h-size-6: 1em !default;
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
