@@ -25,6 +25,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   to students.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+logo: "/assets/img/logo.png"
+header: "/assets/img/header.jpg"
+favicon: "/assets/img/favicon.png"
 
 instagram_username: adfundumdiving
 facebook_username: gsdcadfundum

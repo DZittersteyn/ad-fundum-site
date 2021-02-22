@@ -9,6 +9,32 @@ $h-size-3: 1em !default;
 $h-size-4: 1em !default;
 $h-size-5: 1em !default;
 $h-size-6: 1em !default;
+$masthead-link-color: #fff;
+
+.masthead {
+  position: relative;
+}
+
+.masthead::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/img/header.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(50%);
+}
+.masthead-inside {
+  /* This will make it stack on top of the ::before */
+  position: relative;
+}
+
+#site-nav {
+  background-color: transparent;
+}
 
 @charset "utf-8";
 
