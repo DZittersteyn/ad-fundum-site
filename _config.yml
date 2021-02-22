@@ -29,11 +29,26 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: adfundumdiving
 facebook_username: gsdcadfundum
 
+header_pages:
+  - diving.md
+  - spots.md
+  - association.md
+
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
-  - jekyll-menus
+  - jekyll-toc
+
+defaults:
+-
+  scope:
+    path: "" # an empty string here means all files in the project
+    type: pages
+  values:
+    toc_icon: stream
+    toc_sticky: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
