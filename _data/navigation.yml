@@ -7,11 +7,11 @@ main:
 - title: Spots
   url: "/spots.html"
 agenda:
-- title: April
-  children:
-  - date: "4"
-    title: Training
 - title: March
   children:
   - date: "1"
     title: First of March dive
+- title: April
+  children:
+  - date: "4"
+    title: Training
