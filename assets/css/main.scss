@@ -9,7 +9,9 @@ $h-size-3: 1em !default;
 $h-size-4: 1em !default;
 $h-size-5: 1em !default;
 $h-size-6: 1em !default;
+
 $masthead-link-color: #fff;
+$masthead-link-color-hover: #ccc;
 
 .masthead {
   position: relative;
@@ -34,6 +36,23 @@ $masthead-link-color: #fff;
 
 #site-nav {
   background-color: transparent;
+}
+
+#footer {
+  .page__footer-copyright {
+    display: flex;
+    align-items: center;
+  }
+  .icon{
+    height: 1.5em;
+    margin-right: 0.7em;
+  }
+  .separator{
+    margin: 0 0.7em;
+  }
+  .fab {
+    font-size: 1.6em;
+  }
 }
 
 @charset "utf-8";

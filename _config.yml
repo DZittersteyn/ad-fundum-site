@@ -39,8 +39,7 @@ plugins:
   - jekyll-toc
 
 defaults:
--
-  scope:
+- scope:
     path: "" # an empty string here means all files in the project
     type: pages
   values:
@@ -50,6 +49,8 @@ defaults:
 paginate: 5 # amount of posts to show
 paginate_path: /posts/page:num/
 
+atom_feed:
+  hide: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
