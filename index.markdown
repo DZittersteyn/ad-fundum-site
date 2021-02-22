@@ -7,7 +7,7 @@ sidebar:
 Welkom to Ad Fundum!
 Are you interested in diving? At the moment there are no more regular introdives, but contact us on [info@adfundum.info](mailto:info@adfundum.info) or [voorzitteradfundum@gmail.com](mailto:voorzitteradfundum@gmail.com) and ask about the possibilities to dive with Ad Fundum!
 
-![](/assets/img/dscn8293kopie.jpg)
+![](assets/img/dscn8293kopie.jpg)
 
 Diving became a popular sport and that is not without reason. The feeling of weightlessness, being active outside, the adventure of being in a completely different world where remarkable species live in alien landscapes, make diving a unique and marvelous experience.
 
