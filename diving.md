@@ -18,7 +18,7 @@ Diving is a skill you need to master. If you acquired this skill, diving is easy
 
 ## Diving indoors
 
-Starting in October until spring you will have theory lectures / lessons prior to the pool training. Here you learn about diving equipment, safety, health issues, diving techniques and so on. In the pool we will teach you how to snorkel and you will learn the basic scuba diving skills. The snorkel training forms the basis for your swimming skills and breathing under water. Next to this you will have lessons with scuba gear so you can familiarize yourself with the equipment in order to have an optimal start once you start diving into the ‘real’ water outside.
+Starting in October until spring you will have theory lectures / lessons prior to the pool training. Here you learn about diving equipment, safety, health issues, diving techniques and so on. In the pool we will teach you how to snorkel and you will learn the basic scuba diving skills. The snorkel training forms the basis for your swimming skills and breathing under water. Next to this you will have lessons with scuba gear so you can familiarise yourself with the equipment in order to have an optimal start once you start diving into the ‘real’ water outside.
 
 ![](assets/_a129553.jpg)
 
