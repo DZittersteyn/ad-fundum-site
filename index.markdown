@@ -1,7 +1,7 @@
 ---
 layout: single
 sidebar:
-  nav: agenda
+  - nav: agenda
 
 ---
 
