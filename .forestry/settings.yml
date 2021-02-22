@@ -6,6 +6,10 @@ webhook_url:
 sections:
 - type: document
   path: _data/navigation.yml
+  label: Agenda
+  match: "**/*"
+- type: document
+  path: _data/navigation.yml
   label: Top Menu
 - type: jekyll-posts
   label: posts
