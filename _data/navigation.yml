@@ -1,5 +1,8 @@
+---
 main:
-  - title: "Diving"
-    url: /diving.html
-  - title: "Spots"
-    url: /spots.html
+- title: Association
+  url: "/association.html"
+- title: Diving
+  url: "/diving.html"
+- title: Spots
+  url: "/spots.html"

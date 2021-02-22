@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/navigation.yml
   label: Top Menu
-  match: "**/*"
 - type: jekyll-posts
   label: posts
   create: all
