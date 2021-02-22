@@ -20,7 +20,7 @@ We invite you to dive with us and discover the Dutch underwater world.
 Tynaarlo (camping ’t Veenmeer) is one of our common diving spots to train. It is only 10 minutes south of Groningen by car.
 All ingredients for an effective and interesting dive training are present. You can get in and out of the water easily. The ground is usually sandy, there are platforms at several depths to do your exercises, there is a buoy with a large chain indicating the deepest point of 15 meters. Visibility normally varies from 1,5 to 5 meters.
 
-Schools of perch in Tynaarlo
+![](assets/img/dscn8293kopie.jpg)
 
 Tynaarlo is not only suited for dive training, you can also make fun dives. A lot of the underwater fish species in fresh water pools can be found here: pike (varying from small to very large), ale, large schools of perch, roach, fresh water lobsters, plant life, sometimes you can spot (ex-domestic) turtles. You can also find may objects: a helicopter simulator, street signs, little boats, Christmas trees, car tires, a toilet and a huge delta flyer.
 
