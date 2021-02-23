@@ -1,0 +1,14 @@
+---
+label: Agenda
+hide_body: true
+fields:
+- type: field_group_list
+  name: agenda
+  label: agenda
+  fields:
+  - type: datetime
+    name: date
+    label: date
+  - type: text
+    name: title
+    label: title
