@@ -66,6 +66,7 @@ $max-width: $x-large !default;
   .page__footer-copyright {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
   }
   .icon{
     height: 1.5em;
