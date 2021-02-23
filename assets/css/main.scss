@@ -2,6 +2,9 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+$doc-font-size: 12 !default;
+
+
 /* headline scale */
 $h-size-1: 1.3em !default;
 $h-size-2: 1.15em !default;
@@ -12,6 +15,27 @@ $h-size-6: 1em !default;
 
 $masthead-link-color: #fff;
 $masthead-link-color-hover: #ccc;
+
+
+$small: 600px !default;
+$medium: 768px !default;
+$medium-wide: 900px !default;
+$large: 1024px !default;
+$x-large: 1280px !default;
+$max-width: $x-large !default;
+
+
+.greedy-nav {
+  .hidden-links {
+    a {
+      color: mix(#000, #7a8288, 50%);
+    }
+
+    a:hover {
+      color: mix(#000, #7a8288, 50%) !important;
+    }
+  }
+}
 
 .masthead {
   position: relative;
@@ -52,6 +76,22 @@ $masthead-link-color-hover: #ccc;
   }
   .fab {
     font-size: 1.6em;
+  }
+}
+.calendar {
+  .month {
+    border: solid lightgray;
+    padding: 2px 5px;
+    border-width: 1px 0;
+    background-color: whitesmoke;
+    font-weight: 200;
+  }
+  .date {
+    width: 1.5em;
+    font-weight: 700;
+    display: inline-block;
+    background-color: whitesmoke;
+    text-align: center;
   }
 }
 

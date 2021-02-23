@@ -1,28 +1,27 @@
-{% assign navigation = site.data.agenda[include.cal] %}
+{% assign calendar = site.data.events[include.cal] | sort: "date" %}
 
-<nav class="nav__list">
-  {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
-  <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
-  <ul class="nav__items">
-    {% for nav in navigation %}
-      <li>
-        <span class="nav__sub-title">{{ nav.title }}</span>
+<div class="calendar">
+  {% if page.sidebar.title %}
+    <h3 class="nav__title" style="padding-left: 0;">
+      {{ page.sidebar.title }}
+    </h3>
+  {% endif %}
+  {% assign current_year = 'now' | date: "%Y" %}
+  {% assign prev_month = nil %}
 
-        {% if nav.children != null %}
-        <ul>
-          {% for child in nav.children %}
-            <li>
-              {% case child.date %}
-                {% when "1" or "21" or "31" %}{{ child.date }}st
-                {% when "2" or "22" %}{{ child.date }}nd
-                {% when "3" or "23" %}{{ child.date }}rd
-                {% else %}{{ child.date }}th
-              {% endcase %} - {{ child.title }}</li>
-          {% endfor %}
-        </ul>
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-</nav>
+  {% for cal in calendar %}
+    {% assign cal_year = cal.date | date: "%Y" %}
+    {% assign cal_month = cal.date | date: "%B" %}
+
+    {% if prev_month != cal_month %}
+      <div class='month'>
+        {{ cal_month }}
+      {% if cal_year != current_year %}
+        {{ cal_year }}
+      {% endif %}
+      </div>
+    {% endif %}
+    {% assign prev_month = cal.date | date: "%B" %}
+    <div><span class="date">{{ cal.date | date: "%e" }}</span> <span class='item'>{{ cal.title }}</span></div>
+  {% endfor %}
+</div>

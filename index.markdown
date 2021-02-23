@@ -3,8 +3,7 @@ title: Homepage
 layout: single
 sidebar:
 - cal: agenda
-  title: "Calendar"
-
+  title: "Events"
 ---
 Welkom to Ad Fundum!
 Are you interested in diving? At the moment there are no more regular introdives, but contact us on [info@adfundum.info](mailto:info@adfundum.info) or [voorzitteradfundum@gmail.com](mailto:voorzitteradfundum@gmail.com) and ask about the possibilities to dive with Ad Fundum!
