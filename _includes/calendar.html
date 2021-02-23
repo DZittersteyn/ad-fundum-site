@@ -1,0 +1,28 @@
+{% assign navigation = site.data.agenda[include.cal] %}
+
+<nav class="nav__list">
+  {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
+  <ul class="nav__items">
+    {% for nav in navigation %}
+      <li>
+        <span class="nav__sub-title">{{ nav.title }}</span>
+
+        {% if nav.children != null %}
+        <ul>
+          {% for child in nav.children %}
+            <li>
+              {% case child.date %}
+                {% when "1" or "21" or "31" %}{{ child.date }}st
+                {% when "2" or "22" %}{{ child.date }}nd
+                {% when "3" or "23" %}{{ child.date }}rd
+                {% else %}{{ child.date }}th
+              {% endcase %} - {{ child.title }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
