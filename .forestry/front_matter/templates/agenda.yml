@@ -13,6 +13,7 @@ fields:
       required: true
       date_format: DD-MM-YYYY
       export_format: YYYY-MM-DD
+      time_format: " "
   - type: text
     name: title
     label: Title
