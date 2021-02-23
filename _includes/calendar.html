@@ -22,6 +22,6 @@
       </div>
     {% endif %}
     {% assign prev_month = cal.date | date: "%B" %}
-    <div><span class="date">{{ cal.date | date: "%e" }}</span> <span class='item'>{{ cal.title }}</span></div>
+    <div class='event'><div class="date">{{ cal.date | date: "%e" }}</div> <div class='item'>{{ cal.title }}</div></div>
   {% endfor %}
 </div>

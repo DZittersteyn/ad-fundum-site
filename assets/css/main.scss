@@ -80,6 +80,10 @@ $max-width: $x-large !default;
   }
 }
 .calendar {
+  .event {
+    display: flex;
+    align-content: stretch;
+  }
   .month {
     border: solid lightgray;
     padding: 2px 5px;
@@ -88,11 +92,17 @@ $max-width: $x-large !default;
     font-weight: 200;
   }
   .date {
-    width: 1.5em;
+
+    flex-shrink: 0;
+    width: 1.8em;
     font-weight: 700;
-    display: inline-block;
     background-color: whitesmoke;
     text-align: center;
+
+  }
+  .item {
+    margin: 0 5px;
+    display: inline-block;
   }
 }
 

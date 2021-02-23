@@ -4,11 +4,13 @@ agenda:
   title: Training
 - date: 2021-03-01
   title: First of March dive
-- date: 2021-02-26 23:00:00 +0000
-  title: Test Agenda Item
+- date: 2021-02-14 23:00:00 +0000
+  title: ❤️ emoji event
 - date: 2021-02-28 23:00:00 +0000
-  title: Test Agenda Item
+  title: Another Feb event
 - date: 2022-05-26 23:00:00 +0000
-  title: Test Agenda Item
+  title: Whoa, next year
 - date: 2021-01-26 23:00:00 +0000
-  title: Test Agenda Item
+  title: Really out of order event
+- date: 2021-04-26 23:00:00 +0000
+  title: Event with a really long title that definitely wraps
