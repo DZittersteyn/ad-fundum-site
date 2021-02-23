@@ -7,10 +7,6 @@ sections:
 - type: document
   path: _data/navigation.yml
   label: Top Menu
-- type: document
-  path: _data/agenda.yml
-  label: Agenda
-  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: documents
