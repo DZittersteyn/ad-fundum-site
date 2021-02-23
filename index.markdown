@@ -3,10 +3,10 @@ title: Homepage
 layout: single
 sidebar:
 - cal: agenda
-  title: "Events"
+  title: Events
+
 ---
-Welkom to Ad Fundum!
-Are you interested in diving? At the moment there are no more regular introdives, but contact us on [info@adfundum.info](mailto:info@adfundum.info) or [voorzitteradfundum@gmail.com](mailto:voorzitteradfundum@gmail.com) and ask about the possibilities to dive with Ad Fundum!
+Welcome to Ad Fundum! Are you interested in diving? At the moment there are no more regular introduction dives, but contact us on [info@adfundum.info](mailto:info@adfundum.info) or [voorzitteradfundum@gmail.com](mailto:voorzitteradfundum@gmail.com) and ask about the possibilities to dive with Ad Fundum!
 
 ![](assets/img/dscn8293kopie.jpg)
 
