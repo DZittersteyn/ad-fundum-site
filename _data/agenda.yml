@@ -1,5 +1,7 @@
 ---
 agenda:
+- date: 2021-02-26 23:00:00 +0000
+  title: Test Agenda Item
 - date: 2021-03-01
   title: First of March dive
 - date: 2021-05-03
