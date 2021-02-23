@@ -2,7 +2,7 @@
 title: Homepage
 layout: single
 sidebar:
-- nav: agenda
+- cal: agenda
   title: "Calendar"
 
 ---
