@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: _data/agenda.yml
+  label: agenda
+  match: "**/*"
+- type: document
   path: _data/navigation.yml
   label: Top Menu
 - type: jekyll-pages
