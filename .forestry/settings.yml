@@ -1,15 +1,15 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
-webhook_url: 
+admin_path:
+webhook_url:
 sections:
 - type: document
   path: _data/navigation.yml
   label: Top Menu
 - type: document
-  path: _data/agenda.yml
-  label: Agenda
+  path: _data/events.yml
+  label: Events
 - type: jekyll-pages
   label: Pages
   create: documents
