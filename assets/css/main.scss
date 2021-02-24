@@ -60,6 +60,10 @@ $max-width: $x-large !default;
 // #site-nav {
 //   background-color: transparent;
 // }
+#instafeed {overflow: auto; margin: 0 0 0 -1%; padding: 0;}
+#instafeed li {float: left; display: block; margin: 0 0 1% 1%; width: 45%; padding-bottom: 45%; position: relative;}
+#instafeed li img {width: 100%; height: 100%; object-fit: cover; position: absolute;}
+
 
 #footer {
   .page__footer-copyright {

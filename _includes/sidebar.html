@@ -11,6 +11,7 @@
       {% if s.text %}{{ s.text | markdownify }}{% endif %}
       {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
       {% if s.cal %}{% include calendar.html cal=s.cal %}{% endif %}
+      {% if s.insta %}{% include ppi.html username=s.insta %}{% endif %}
     {% endfor %}
     {% if page.sidebar.nav %}
       {% include nav_list nav=page.sidebar.nav %}

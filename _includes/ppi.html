@@ -1,0 +1,10 @@
+<div>
+    <h3 class="nav__title" style="padding-left: 0;">
+      <i class="fab fa-instagram"></i> adfundumdiving
+    </h3>
+
+<ul id="instafeed">
+    {% for i in (0..3) %}<li><a href="https://www.instagram.com/{{ include.username }}/"><img src="https://profilepageimages.usecue.com/images/{{ include.username }}/small/{{ i }}.jpg" alt="Instagram picture {{ i | plus:1 }}" /></a></li>{% endfor %}
+</ul>
+
+</div>

@@ -4,6 +4,7 @@ layout: archive
 sidebar:
 - cal: agenda
   title: "Events"
+- insta: adfundumdiving
 header:
   overlay_image: "/assets/img/header.jpg"
   overlay_filter: 0.5
