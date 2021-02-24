@@ -1,12 +1,19 @@
 ---
-title: Homepage
-layout: single
+title: G.S.D.C. Ad Fundum
+layout: archive
 sidebar:
 - cal: agenda
   title: "Events"
+header:
+  overlay_image: "/assets/img/header.jpg"
+  overlay_filter: 0.5
+tagline: 'Making scuba diving accessible and affordable for students'
+
 ---
-Welkom to Ad Fundum!
-Are you interested in diving? At the moment there are no more regular introdives, but contact us on [info@adfundum.info](mailto:info@adfundum.info) or [voorzitteradfundum@gmail.com](mailto:voorzitteradfundum@gmail.com) and ask about the possibilities to dive with Ad Fundum!
+
+## Welcome to Ad Fundum!
+
+Are you interested in diving? At the moment there are no more regular introdives, contact us at [info@adfundum.info](mailto:info@adfundum.info) and ask about the possibilities!
 
 ![](assets/img/dscn8293kopie.jpg)
 

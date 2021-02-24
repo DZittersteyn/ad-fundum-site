@@ -3,6 +3,9 @@ layout: single
 title: Diving
 date: 2021-02-22T15:47:47.000+01:00
 
+header:
+  overlay_image: "/assets/img/header.jpg"
+  overlay_filter: 0.5
 ---
 ## Learning how to dive
 

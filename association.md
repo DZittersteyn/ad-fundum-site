@@ -3,6 +3,7 @@ layout: single
 title:  "Association"
 date:   2021-02-22 15:47:47 +0100
 toc: true
+toc_label: Association
 ---
 
 ## Board 2020-2021

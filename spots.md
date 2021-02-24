@@ -3,7 +3,7 @@ layout: single
 title: Dive Spots
 date: 2021-02-22T15:47:47.000+01:00
 toc: true
-
+toc_label: Spots
 ---
 “Diving in the Netherlands?! That’s extremely cold, you won’t see a thing and there is no live to be found anywhere!” This is something people who do not know how it is to dive in The Netherlands frequently say. However, this cannot be further from the truth! Diving in in our country is great!
 
