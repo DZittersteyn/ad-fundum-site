@@ -19,4 +19,4 @@ fields:
     label: Title
     config:
       required: true
-      max: 28
+      max: 

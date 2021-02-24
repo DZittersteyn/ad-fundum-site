@@ -41,4 +41,4 @@ Would you like to get to know the underwater world but do you lack a divers lice
 
 ## Questions?
 
-If you still have remaining questions, you can use our contact page to post them.
+If you still have remaining questions, send us an email at <info@adfundum.info>!
