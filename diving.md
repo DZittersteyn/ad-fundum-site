@@ -2,10 +2,10 @@
 layout: single
 title: Diving
 date: 2021-02-22T15:47:47.000+01:00
-
 header:
   overlay_image: "/assets/img/header.jpg"
-  overlay_filter: 0.5
+  overlay_filter: "0.5"
+
 ---
 ## Learning how to dive
 
@@ -14,6 +14,8 @@ Have you never been scuba diving but would you like to learn? At our club this i
 ## Dive safely at Ad Fundum
 
 Diving is a relatively safe sport in comparison to other activities. However you enter a realm where you do not belong naturally and that is why at Ad Fundum you get extensive training with the focus on safety. Our solid training program will guarantee your safety under water. You will always dive with a ‘dive buddy’, this will make your dive safer and more fun. Furthermore you will have to pass a scuba dive medical examination in order to make sure your body can handle diving. Don’t worry, usually this does not pose a problem, not even with for example a mild forms of asthma.
+
+![](assets/screen-shot-2021-03-02-at-13-03-24.png)
 
 ## Learning how to dive is no rocket science
 
