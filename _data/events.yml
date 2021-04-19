@@ -1,21 +1,21 @@
 ---
 agenda:
-- date: '2021-09-03'
+- date: 2021-09-02 22:00:00 +0000
   title: Training
-- date: '2021-03-01'
+- date: 2021-03-01
   title: First of March dive
-- date: '2021-02-14T23:00:00.000+00:00'
+- date: 2021-02-14T23:00:00.000+00:00
   title: "❤️ emoji event"
-- date: '2021-02-28T23:00:00.000+00:00'
+- date: 2021-02-28T23:00:00.000+00:00
   title: Another Feb event
-- date: '2022-05-26T23:00:00.000+00:00'
+- date: 2022-05-26T23:00:00.000+00:00
   title: Whoa, next year
-- date: '2021-01-26T23:00:00.000+00:00'
+- date: 2021-01-26T23:00:00.000+00:00
   title: Really out of order event
-- date: '2021-04-26T23:00:00.000+00:00'
+- date: 2021-04-26T23:00:00.000+00:00
   title: Event with a really long title that definitely wraps
 title: ''
 date: ''
 item:
 - title: test
-  date: 2021-04-05 22:00:00 +0000
+  date: '2021-04-05 22:00:00 +0000'
