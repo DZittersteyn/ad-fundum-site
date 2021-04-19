@@ -2,7 +2,7 @@
 label: test
 hide_body: true
 fields:
-- name: item
+- name: agenda
   type: field_group_list
   fields:
   - name: title
@@ -23,6 +23,6 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Item
+  label: Agenda
 pages:
 - _data/events.yml
