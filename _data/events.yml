@@ -14,8 +14,3 @@ agenda:
   title: Really out of order event
 - date: '2021-04-26T23:00:00.000+00:00'
   title: Event with a really long title that definitely wraps
-title: ''
-date: ''
-item:
-- title: test
-  date: 2021-04-05 22:00:00 +0000
