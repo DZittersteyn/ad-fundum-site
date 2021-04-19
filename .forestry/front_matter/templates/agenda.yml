@@ -6,19 +6,30 @@ fields:
   name: agenda
   label: agenda
   fields:
-  - type: datetime
-    name: date
-    label: Date
-    config:
-      required: true
-      date_format: DD-MM-YYYY
-      export_format: YYYY-MM-DD
-      time_format: " "
   - type: text
     name: title
     label: Title
     config:
       required: true
       max: 
+  - type: datetime
+    name: start
+    config:
+      required: true
+      date_format: DD-MM-YYYY
+      export_format: YYYY-MM-DD
+      time_format: " "
+    label: start
+  - name: end
+    type: datetime
+    label: end
+    description: ''
+    config:
+      required: false
+      date_format: 
+      time_format: 
+      display_utc: false
   config:
     labelField: title
+pages:
+- _data/events.yml
