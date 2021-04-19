@@ -1,4 +1,4 @@
-{% assign calendar = site.data.events[include.cal] | sort: "date" %}
+{% assign calendar = site.data.events[include.cal] | sort: "start" %}
 
 <div class="calendar">
   {% if page.sidebar.title %}
@@ -10,8 +10,8 @@
   {% assign prev_month = nil %}
 
   {% for cal in calendar %}
-    {% assign cal_year = cal.date | date: "%Y" %}
-    {% assign cal_month = cal.date | date: "%B" %}
+    {% assign cal_year = cal.start | date: "%Y" %}
+    {% assign cal_month = cal.start | date: "%B" %}
 
     {% if prev_month != cal_month %}
       <div class='month'>
@@ -21,7 +21,8 @@
       {% endif %}
       </div>
     {% endif %}
-    {% assign prev_month = cal.date | date: "%B" %}
+    {% assign prev_month = cal.start | date: "%B" %}
     <div class='event'><div class="date">{{ cal.date | date: "%e" }}</div> <div class='item'>{{ cal.title | truncate: 35 }}</div></div>
+    <div class='event'><div class="date">{{ cal.start | date: "%e" }}</div> <div class='item'>{{ cal.title | truncate: 35 }}</div></div>
   {% endfor %}
 </div>

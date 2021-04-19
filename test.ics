@@ -3,18 +3,22 @@ layout: null
 ---
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:http://www.bephpug.com/
-METHOD:PUBLISH{% for post in site.posts limit:3 %}
+PRODID:-//Ad Fundum//NONSGML Event Calendar//EN
+X-WR-CALNAME:Ad Fundum Events Calendar
+DESCRIPTION:All Ad Fundum non-training events
+X-WR-CALDESC:All Ad Fundum non-training events
+TIMEZONE-ID:Europe/Amsterdam
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+CALSCALE:GREGORIAN
+METHOD:PUBLISH{% for event in site.data.events.agenda %}
 BEGIN:VEVENT
-UID:{{ post.date | date: "%Y%m%d" }}@bephpug.de
-ORGANIZER;CN="BEPHPUG Team":MAILTO:bephpug@thing.org
-LOCATION:Co-Up\, 3rd Floor\, Adalbertstr. 7-8\, 10999 Berlin
-SUMMARY:{{ post.title | remove: ',' | remove: ';' }}
-DESCRIPTION:Meetings start at 19:00PM Berlin time. More info at {{ site.url }}{{ post.url }}
+SUMMARY:{{event.title}}
+UID:{{ event.start | timezoneify }}
 CLASS:PUBLIC
-DTSTART:{{ post.date | date: "%Y%m%d" }}T170000Z
-DTEND:{{ post.date | date: "%Y%m%d" }}T190000Z
-DTSTAMP:{{ post.date | date: "%Y%m%d" }}T170000Z
+DTSTART:{{ event.start | timezoneify }}
+DTEND:{{ event.end | timezoneify }}
+DTSTAMP:{{ event.start | timezoneify }}
 END:VEVENT{% endfor %}
 END:VCALENDAR
-
