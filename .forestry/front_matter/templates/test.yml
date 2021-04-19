@@ -1,0 +1,28 @@
+---
+label: test
+hide_body: true
+fields:
+- name: item
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  - name: date
+    type: datetime
+    label: Date
+    description: ''
+    config:
+      required: true
+      date_format: 
+      time_format: 
+      display_utc: false
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Item
+pages:
+- _data/events.yml

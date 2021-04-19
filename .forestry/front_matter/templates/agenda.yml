@@ -20,3 +20,5 @@ fields:
     config:
       required: true
       max: 
+  config:
+    labelField: title
