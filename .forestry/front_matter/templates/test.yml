@@ -2,19 +2,27 @@
 label: test
 hide_body: true
 fields:
-- name: title
-  type: text
+- name: item
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  - name: date
+    type: datetime
+    label: Date
+    description: ''
+    config:
+      required: true
+      date_format: 
+      time_format: 
+      display_utc: false
   config:
-    required: false
-  label: Title
-- name: date
-  type: datetime
-  label: Date
-  description: ''
-  config:
-    required: false
-    date_format: 
-    time_format: 
-    display_utc: false
+    min: 
+    max: 
+    labelField: 
+  label: Item
 pages:
 - _data/events.yml
