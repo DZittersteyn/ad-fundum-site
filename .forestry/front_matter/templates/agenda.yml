@@ -16,8 +16,8 @@ fields:
     name: start
     config:
       required: true
-      date_format: DD-MM-YYYY
-      export_format: YYYY-MM-DD
+      date_format: ''
+      export_format: ''
       time_format: " "
     label: start
   - name: end
@@ -32,4 +32,5 @@ fields:
   config:
     labelField: title
 pages:
+- _data/events.yml
 - _data/events.yml
