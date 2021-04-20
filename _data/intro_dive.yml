@@ -1,1 +1,14 @@
 ---
+title: foo
+description: bar
+paragraphs:
+- header: p1
+  contents: p2
+- header: fooooooo
+  contents: barrrrrrr
+buttons:
+- caption: aoeu
+  url: "/sign_up.html"
+links:
+- text: link
+  url: "/assets/img/header.jpg"
