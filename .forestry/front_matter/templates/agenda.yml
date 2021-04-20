@@ -11,13 +11,13 @@ fields:
     label: Title
     config:
       required: true
-      max:
+      max: 
   - type: datetime
     name: start
     config:
       required: true
-      date_format:
-      time_format:
+      date_format: 
+      time_format: 
       display_utc: false
     label: start
   - name: end
@@ -26,10 +26,11 @@ fields:
     description: ''
     config:
       required: false
-      date_format:
-      time_format:
+      date_format: 
+      time_format: 
       display_utc: false
   config:
     labelField: title
 pages:
+- _data/events.yml
 - _data/events.yml
