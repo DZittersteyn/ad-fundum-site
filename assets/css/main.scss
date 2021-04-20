@@ -27,6 +27,9 @@ $max-width: $x-large !default;
 a {
   text-decoration: none;
 }
+a:hover{
+  text-decoration: underline;;
+}
 
 footer {
   display: flex !important;
