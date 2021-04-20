@@ -60,25 +60,48 @@ $max-width: $x-large !default;
 // #site-nav {
 //   background-color: transparent;
 // }
-#instafeed {
-  overflow: auto;
-  margin: 0 0 0 -1%;
-  padding: 0;
+
+@media only screen and (min-width: 1023px) {
+  #instafeed {
+    overflow: auto;
+    margin: 0 0 0 -1%;
+    padding: 0;
+  }
+  #instafeed div {
+    float: left;
+    display: block;
+    margin: 0 0 5px 5px;
+    width: calc(50% - 5px);
+    padding-bottom: calc(50% - 5px);
+    position: relative;
+  }
+  #instafeed div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+  }
 }
-#instafeed li {
-  float: left;
-  display: block;
-  margin: 0 0 5px 5px;
-  width: calc(50% - 5px);
-  padding-bottom: calc(50% - 5px);
-  position: relative;
+@media only screen and (max-width: 1023px) {
+  #instafeed {
+    display: flex;
+  }
+  #instafeed div {
+    float: left;
+    display: block;
+    margin: 0 0 5px 5px;
+    width: calc(25% - 5px);
+    padding-bottom: calc(25% - 5px);
+    position: relative;
+  }
+  #instafeed div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+  }
 }
-#instafeed li img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-}
+
 
 
 #footer {
