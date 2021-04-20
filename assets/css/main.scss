@@ -66,6 +66,8 @@ $max-width: $x-large !default;
   display: flex;
   padding: 30px;
 }
+
+
 @media only screen and (min-width: 1023px) {
   .half {
     width: 50%;
@@ -73,6 +75,7 @@ $max-width: $x-large !default;
   #sidebar_img {
     margin-right: 30px;
   }
+
 }
 
 @media only screen and (max-width: 1023px) {
@@ -80,7 +83,10 @@ $max-width: $x-large !default;
     flex-direction: column;
     align-items: center;
   }
-
+  #sidebar_img {
+    width: 100%;
+    padding-bottom: 30px;
+  }
   #sidebar_img img {
     overflow: hidden;
     object-fit: cover;
