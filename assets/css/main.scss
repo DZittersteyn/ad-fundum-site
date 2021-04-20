@@ -24,43 +24,6 @@ $x-large: 1280px !default;
 $max-width: $x-large !default;
 
 
-// .greedy-nav {
-//   .hidden-links {
-//     a {
-//       color: mix(#000, #7a8288, 50%);
-//     }
-
-//     a:hover {
-//       color: mix(#000, #7a8288, 50%) !important;
-//     }
-//   }
-// }
-
-// .masthead {
-//   position: relative;
-// }
-
-// .masthead::before {
-//   content: "";
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   background-image: url("/assets/img/header.jpg");
-//   background-size: cover;
-//   background-position: center;
-//   filter: brightness(50%);
-// }
-// .masthead-inside {
-//   /* This will make it stack on top of the ::before */
-//   position: relative;
-// }
-
-// #site-nav {
-//   background-color: transparent;
-// }
-
 a {
   text-decoration: none;
 }
@@ -96,6 +59,7 @@ footer {
   }
   #sidebar_img {
     margin-right: 30px;
+    text-align: right;
   }
 
 }
