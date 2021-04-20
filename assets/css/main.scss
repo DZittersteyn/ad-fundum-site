@@ -65,8 +65,23 @@ $max-width: $x-large !default;
 #intro_form {
   display: flex;
   padding: 30px;
-}
 
+  em {
+    color: #777;
+    font-size: 0.8em;
+  }
+// .btn{
+//   border-radius: 3px;
+//   outline: 0!important;
+//   padding: 12px 10px;
+//   display: inline-block;
+// }
+// .btn-primary {
+//   color: #fff;
+//   background-color: #021754;
+//   border-color: #01103b;
+// }
+}
 
 @media only screen and (min-width: 1023px) {
   .half {
