@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: _data/intro_dive.yml
+  label: Sign up
+  match: "**/*"
+- type: document
   path: _data/navigation.yml
   label: Top Menu
 - type: document
