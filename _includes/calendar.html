@@ -24,4 +24,5 @@
     {% assign prev_month = cal.start | date: "%B" %}
     <div class='event'><div class="date">{{ cal.start | date: "%e" }}</div> <div class='item'>{{ cal.title | truncate: 35 }}</div></div>
   {% endfor %}
+  <a target="_blank" href="{{ 'test.ics' | absolute_url | replace: 'https://', 'webcal://'}}">ical</a>
 </div>

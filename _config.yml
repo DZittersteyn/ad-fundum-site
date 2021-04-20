@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Groningen Studenten Duik Club (Groningen Student Diving Association) Ad Fundum makes diving accessible and affordable
   to students.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tender-boyd-1634c3.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/img/logo_gray.png"
 # header: "/assets/img/header.jpg"
 favicon: "/assets/img/favicon.png"

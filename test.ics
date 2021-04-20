@@ -15,7 +15,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH{% for event in site.data.events.agenda %}
 BEGIN:VEVENT
 SUMMARY:{{event.title}}
-UID:{{ event.start | timezoneify }}
+UID:{{ event.start | timezoneify | prepend: event.title | md5 }}
 CLASS:PUBLIC
 DTSTART:{{ event.start | timezoneify }}
 DTEND:{{ event.end | timezoneify }}
