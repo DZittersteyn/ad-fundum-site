@@ -1,8 +1,10 @@
 ---
 main:
-- title: Diving
-  url: "/diving.html"
+- title: Intro Dives
+  url: "/intro_dive.html"
 - title: Association
   url: "/association.html"
-- title: Spots
-  url: "/spots.html"
+- title: Committees
+  url: "/committees.html"
+- title: Diving
+  url: "/diving.html"

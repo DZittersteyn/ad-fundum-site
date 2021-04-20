@@ -1,5 +1,7 @@
 {% assign calendar = site.data.events[include.cal] | sort: "start" %}
 
+{% capture nowunix %}{{'now' | date: '%s' | plus: 0}}{% endcapture %}
+
 <div class="calendar">
   {% if page.sidebar.title %}
     <h3 class="nav__title" style="padding-left: 0;">
@@ -10,19 +12,32 @@
   {% assign prev_month = nil %}
 
   {% for cal in calendar %}
-    {% assign cal_year = cal.start | date: "%Y" %}
-    {% assign cal_month = cal.start | date: "%B" %}
+    {% capture caltime %}{{cal.start | date: '%s' | plus: 0 }}{% endcapture %}
+    {% if caltime > nowunix %}
+      {% assign cal_year = cal.start | date: "%Y" %}
+      {% assign cal_month = cal.start | date: "%B" %}
 
-    {% if prev_month != cal_month %}
-      <div class='month'>
-        {{ cal_month }}
-      {% if cal_year != current_year %}
-        {{ cal_year }}
+      {% if prev_month != cal_month %}
+        <div class='month'>
+          {{ cal_month }}
+        {% if cal_year != current_year %}
+          {{ cal_year }}
+        {% endif %}
+        </div>
       {% endif %}
+      {% assign prev_month = cal.start | date: "%B" %}
+      <div class='event'>
+        <div class="date">
+          {{ cal.start | date: "%e" }}
+        </div>
+        <div class='item'>
+          <em>{{ cal.start | date: "%H:%M" }} - {{ cal.end | date: "%H:%M" }}</em>
+          <br/>
+          {{ cal.title | truncate: 42 }}
+        </div>
       </div>
     {% endif %}
-    {% assign prev_month = cal.start | date: "%B" %}
-    <div class='event'><div class="date">{{ cal.start | date: "%e" }}</div> <div class='item'>{{ cal.title | truncate: 35 }}</div></div>
   {% endfor %}
-  <a target="_blank" href="{{ 'test.ics' | absolute_url | replace: 'https://', 'webcal://'}}">ical</a>
+
+  <a style="float: right" target="_blank" href="{{ 'test.ics' | absolute_url | replace: 'https://', 'webcal://'}}">ical</a>
 </div>

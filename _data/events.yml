@@ -1,8 +1,5 @@
 ---
 agenda:
-- title: test event
-  start: 2021-04-26 22:00:00 +0000
-  end: 2021-04-26 22:00:00 +0000
 - title: Training
   start: 2021-09-02 22:00:00 +0000
   end: 2021-09-02T23:00:00.000+00:00
@@ -24,3 +21,6 @@ agenda:
 - title: Event with a really long title that definitely wraps
   start: 2021-04-26T22:00:00.000+00:00
   end: 2021-04-26T23:00:00.000+00:00
+- title: This is an event that should show up eventually
+  start: 2021-04-27T21:00:00.000+00:00
+  end: 2021-04-27T23:00:00.000+00:00
