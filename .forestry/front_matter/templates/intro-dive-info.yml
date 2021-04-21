@@ -52,6 +52,3 @@ fields:
     max: 
     labelField: 
   label: Links
-pages:
-- _data/intro_dive.yml
-- _data/intro_dive.yml

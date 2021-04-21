@@ -5,9 +5,6 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: _data/intro_dive.yml
-  label: Sign up
-- type: document
   path: _data/navigation.yml
   label: Top Menu
 - type: document
@@ -16,11 +13,6 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: documents
-- type: directory
-  path: ''
-  label: root
-  create: all
-  match: "**/*"
 upload_dir: assets
 public_path: assets
 front_matter_path: ''
