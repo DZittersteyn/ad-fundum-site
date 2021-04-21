@@ -3,7 +3,6 @@ layout: single
 date: 
 toc: false
 title: Contact Us
-published: false
 
 ---
 You can find Ad Fundum in the following places:
