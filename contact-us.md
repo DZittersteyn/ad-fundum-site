@@ -10,7 +10,7 @@ You can find Ad Fundum in the following places:
 
 <i class="fab fa-discord"></i> [Discord: Ad Fundum](https://discord.gg/CZdxKJRvDQ)
 
-<i class="fas fa-at"></i> info@adfundum.info
+<i class="fas fa-at"></i> [info@adfundum.info](mailto://info@adfundum.info "Email")
 
 <i class="fab fa-instagram"></i> [@adfundumdiving](https://instagram.com/adfundumdiving)
 
