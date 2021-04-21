@@ -51,7 +51,7 @@ defaults:
     toc_sticky: true
     header:
       overlay_image: "/assets/img/header.jpg"
-      overlay_filter: 0.5
+      overlay_filter: 0.3
 
 paginate: 5 # amount of posts to show
 paginate_path: /posts/page:num/

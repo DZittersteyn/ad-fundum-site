@@ -7,7 +7,7 @@ sidebar:
 - insta: adfundumdiving
 header:
   overlay_image: "/assets/img/header.jpg"
-  overlay_filter: 0.5
+  overlay_filter: 0.3
 tagline: 'Making scuba diving accessible and affordable for students'
 
 ---
