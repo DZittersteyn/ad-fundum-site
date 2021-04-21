@@ -1,0 +1,33 @@
+---
+label: Homepage
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: layout
+  label: layout
+- type: field_group_list
+  name: sidebar
+  label: sidebar
+  fields:
+  - type: text
+    name: cal
+    label: cal
+  - type: text
+    name: title
+    label: title
+- type: field_group
+  name: header
+  label: header
+  fields:
+  - type: file
+    name: overlay_image
+    label: overlay_image
+  - type: number
+    name: overlay_filter
+    label: overlay_filter
+- type: text
+  name: tagline
+  label: tagline
