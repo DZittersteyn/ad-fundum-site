@@ -1,6 +1,6 @@
 ---
 layout: single
-date: 
+date:
 toc: false
 title: Contact Us
 
